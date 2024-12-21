@@ -33,3 +33,5 @@ build/
 .vscode/
 *.java~
 *.properties~
+*.xml~
+*.md~
