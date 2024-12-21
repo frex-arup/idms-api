@@ -30,15 +30,7 @@ public class SecurityConfig {
             "/swagger-ui.html",
             "/webjars/**",
             "/swagger-resources/**",
-            "/api/public/**",
-            "/api/auth/**",
-            "/api/users/register",
-            "/api/download/**",
-            "/api/news/find-all-details",
-            "/api/news/**",
-            "api/constituency/**",
-            "/api/notification-test",
-            "/api/users/update-profile/**"
+            "/api/auth/**"
     };
 
     private final JwtAuthenticationFilter jwtAuthFilter;
